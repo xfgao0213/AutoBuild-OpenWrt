@@ -58,6 +58,7 @@ jobs:
         echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
         echo "src-git small https://github.com/xfgao0213/small-package.git" >> ./feeds.conf.default
         echo "src-git vssr https://github.com/v03413/luci-app-vssr.git" >> ./feeds.conf.default
+        echo "src-git kenzok8 https://github.com/kenzok8/small-package.git" >> ./feeds.conf.default
         
     - name: Update & Install feeds
       working-directory: ./openwrt
